@@ -63,5 +63,5 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/airbnb-clone-backend.git
+   https://github.com/Muse-Semu/airbnb-clone-project.git
    cd airbnb-clone-backend
