@@ -51,6 +51,22 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 
 ---
 
+
+## 👥 Team Roles
+- **Backend Developer**  
+  Responsible for implementing API endpoints, database schemas, and business logic.
+
+- **Database Administrator**  
+  Manages database design, indexing, and optimizations.
+
+- **DevOps Engineer**  
+  Handles deployment, monitoring, and scaling of the backend services.
+
+- **QA Engineer**  
+  Ensures the backend functionalities are thoroughly tested and meet quality standards.
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -65,3 +81,4 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
    ```bash
    https://github.com/Muse-Semu/airbnb-clone-project.git
    cd airbnb-clone-backend
+
