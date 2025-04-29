@@ -30,24 +30,24 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 ## 🛠️ Technology Stack
 
 - **Backend Framework**
-  - Django: High-level Python web framework for building RESTful APIs.
+  - Django
 
 - **API Development**
-  - Django REST Framework: Tools for creating and managing APIs.
-  - GraphQL: Enables flexible and efficient data queries.
+  - Django REST Framework (DRF).
+  - GraphQL.
 
 - **Database**
-  - PostgreSQL: Relational database for reliable data storage.
+  - PostgreSQL.
 
 - **Asynchronous Task Handling**
-  - Celery: For managing background tasks like notifications and payment processing.
-  - Redis: Used for caching and session management.
+  - Celery.
+  - Redis.
 
 - **Containerization**
-  - Docker: Provides a consistent development and production environment.
+  - Docker.
 
 - **DevOps**
-  - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+  - CI/CD Pipelines.
 
 ---
 
@@ -66,6 +66,27 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
   Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 ---
+
+## 🛠️ Technology Stack Overview
+- **Backend Framework**
+  - Django: High-level Python web framework for building RESTful APIs.
+
+- **API Development**
+  - Django REST Framework: Tools for creating and managing APIs.
+  - GraphQL: Enables flexible and efficient data queries.
+
+- **Database**
+  - PostgreSQL: Relational database for reliable data storage.
+
+- **Asynchronous Task Handling**
+  - Celery: For managing background tasks like notifications and payment processing.
+  - Redis: Used for caching and session management.
+
+- **Containerization**
+  - Docker: Provides a consistent development and production environment.
+
+- **DevOps**
+  - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 ## 🚀 Getting Started
 
