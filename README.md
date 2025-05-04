@@ -236,6 +236,53 @@ This document outlines the database schema for the Airbnb Clone project, detaili
 
   - Database optimizations, including indexing and caching, enhance data retrieval and storage efficiency. These improvements reduce latency and server load, ensuring a smooth and scalable user     experience even with high traffic.
 
+## API Security
+
+### Authentication
+- **JSON Web Tokens (JWT)** for user authentication to protect API endpoints.  
+- **Bcrypt** for password hashing.  
+- **Multi-factor authentication (MFA)** supported for enhanced security.  
+
+### Authorization
+- **Role-based access control (RBAC)** to restrict actions based on user roles (guest, host, admin).  
+- Sensitive endpoints (e.g., property management) accessible only to authorized users.  
+
+### Rate Limiting
+- **Redis**-enforced rate limiting to cap API requests per user/timeframe.  
+- Prevents abuse (e.g., DoS attacks) and maintains system performance.  
+
+### Data Encryption
+- **HTTPS** for encrypting data in transit.  
+- **AES-256** for encrypting sensitive data at rest (e.g., payment details).  
+
+### Input Validation and Sanitization
+- Strict validation/sanitization of user inputs to block attacks (e.g., SQL injection, XSS).  
+- Ensures backend integrity and user data safety.  
+
+---
+
+## Importance of Security for Key Areas
+
+### 🔒 Protecting User Data
+- Secures PII (emails, phone numbers) to comply with **GDPR** and prevent identity theft.  
+- Breaches risk legal penalties and loss of user trust.  
+
+### 💳 Securing Payments
+- Encrypted transactions prevent fraud and protect financial data.  
+- Critical for user confidence in payment processing.  
+
+### � Safeguarding Property Listings
+- Prevents unauthorized edits/leaks of host details and availability.  
+- RBAC ensures only verified hosts manage listings.  
+
+### 📅 Ensuring Booking Integrity
+- Blocks fraudulent bookings/cancellations via **RBAC** and input validation.  
+- Guarantees legitimate guest-host interactions.  
+
+### ★ Maintaining Review Authenticity
+- Stops fake/malicious reviews through **authentication + rate limiting**.  
+- Preserves trust in review system accuracy.  
+
 ## 🚀 Getting Started
 
 ### Prerequisites
