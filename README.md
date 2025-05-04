@@ -203,7 +203,38 @@ This document outlines the database schema for the Airbnb Clone project, detaili
 - 🏠 Many-to-One with Properties (A review is for one property)
 - 📅 Many-to-One with Bookings (A review is linked to one booking)
 
+## Feature Breakdown
 
+### User Management
+
+  - This feature enables secure user registration, authentication, and profile management. It ensures users can create accounts, log in securely, and manage personal details, forming the             foundation for personalized interactions within the platform.
+
+### Property Management
+
+- Property management allows hosts to create, update, and delete property listings, including details like location, price, and amenities. It empowers hosts to showcase their offerings and 
+  enables users to browse available properties effectively.
+
+### Booking System
+
+  - The booking system facilitates users reserving properties by specifying check-in and check-out dates and managing booking details. It ensures seamless coordination between guests and hosts, 
+  streamlining the reservation process.
+
+### Payment Processing
+
+  - Payment processing handles secure transactions for bookings, recording payment details and statuses. It provides a reliable mechanism for financial exchanges, ensuring trust and 
+    transparency between users and hosts.
+
+### Review System
+
+ - The review system allows guests to post ratings and comments for properties they’ve stayed at. It enhances user trust by providing feedback on property quality and host reliability, aiding      future booking decisions.
+
+### API Documentation
+
+  - API documentation, built with OpenAPI and GraphQL standards, provides clear guidelines for interacting with backend endpoints. It ensures developers can integrate and extend the platform         efficiently, supporting robust and flexible data access.
+
+### Database Optimizations
+
+  - Database optimizations, including indexing and caching, enhance data retrieval and storage efficiency. These improvements reduce latency and server load, ensuring a smooth and scalable user     experience even with high traffic.
 
 ## 🚀 Getting Started
 
