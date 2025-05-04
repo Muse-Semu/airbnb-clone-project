@@ -281,7 +281,24 @@ This document outlines the database schema for the Airbnb Clone project, detaili
 
 ### ★ Maintaining Review Authenticity
 - Stops fake/malicious reviews through **authentication + rate limiting**.  
-- Preserves trust in review system accuracy.  
+- Preserves trust in review system accuracy.
+
+## CI/CD Pipeline
+
+### What is CI/CD?
+- **Continuous Integration (CI):** Automatically builds and tests code changes to catch errors early.  
+- **Continuous Deployment (CD):** Automatically deploys validated changes to production/staging environments.  
+
+### Importance for the Project  
+- **Faster Releases:** Automated testing/deployment speeds up feature delivery.  
+- **Reliability:** Reduces human error in builds and deployments.  
+- **Security:** Automated scans (e.g., SAST) integrate into pipelines to detect vulnerabilities.  
+
+### Tools  
+- **GitHub Actions:** For CI/CD workflows (build, test, deploy).  
+- **Docker:** Containerization to ensure consistent environments.  
+- **Jenkins:** Flexible, extensible automation server for CI/CD pipelines.  
+- **SonarQube:** Static code analysis for security/quality checks.  
 
 ## 🚀 Getting Started
 
